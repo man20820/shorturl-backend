@@ -51,7 +51,7 @@ git clone https://github.com/man20820/shorturl-backend.git
 build docker image and run the container
 
 ```bash
-docker build . -t man20820/backend-shorturl
+docker build . -t man20820/shorturl-backend
 ```
 run container
 
