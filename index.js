@@ -44,7 +44,7 @@ app.route("/api/shorturl/").post(async (req, res) => {
   console.log(url);
   //validasi url
   if (!validUrl.isWebUri(url)) {
-    res.json({
+    res.status(400).json({
       error: "invalid url",
     });
   } else {
